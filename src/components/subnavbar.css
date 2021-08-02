@@ -1,0 +1,39 @@
+.container{
+    box-shadow: 10px 10px 8px #dfdddd;
+    z-index: 999;
+
+}
+.wrapper{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: white;
+    background-color: #282A35;
+}
+.navs-link{
+    font-weight: bold;
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.navs-link:hover{
+    background-color: black;
+}
+.navs-link:active{
+    background-color: rgb(4, 170, 109);
+    color:white ;
+}
+.navs-elements{
+    float: left;
+}
+.navs-elements-right{
+    float: right;
+}
+.navs-elements-right:hover{
+    background-color: black;
+
+}
